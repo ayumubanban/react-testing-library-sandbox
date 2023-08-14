@@ -1,5 +1,6 @@
 import logo from "./logo.svg"
 import { Counter } from "./features/counter/Counter"
+import FormForFindByText from "./examples/FormForFindByText"
 import "./App.css"
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
           </a>
         </span>
       </header>
+      <FormForFindByText />
     </div>
   )
 }
